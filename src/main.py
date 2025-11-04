@@ -26,7 +26,7 @@ try:
     font_20 = ImageFont.truetype(os.path.join(assets_dir, 'fonts/BigBlueTerm.ttf'), 20)
     
     epd.init_Fast()
-    Limage = Image.new('1', (epd.width, epd.height), 255)
+    Limage = Image.new('1', (epd.height, epd.width), 255)
     draw = ImageDraw.Draw(Limage)
     draw.text((2, 0), 'Hello James :)', font = font_20, fill = 0)
     epd.display_Fast(epd.getbuffer(Limage))
