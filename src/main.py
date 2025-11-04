@@ -29,6 +29,7 @@ try:
     Limage = Image.new('1', (epd.width, epd.height), 255)
     draw = ImageDraw.Draw(Limage)
     draw.text((2, 0), 'Hello James :)', font = font_20, fill = 0)
+    epd.display_Fast(epd.getbuffer(Limage))
     time.sleep(5)
         
 except KeyboardInterrupt:
