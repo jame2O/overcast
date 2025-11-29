@@ -11,7 +11,6 @@ import logging
 from waveshare_epd import epd2in7_V2 # type: ignore
 import time
 from PIL import Image,ImageDraw,ImageFont
-import traceback
 
 logging.basicConfig(level=logging.DEBUG)
 

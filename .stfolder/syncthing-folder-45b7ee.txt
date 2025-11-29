@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: vwtn6-eflxf
+created: 2025-11-04T20:20:27Z
